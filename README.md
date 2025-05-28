@@ -166,6 +166,100 @@ src
 
    This will read the configured workflow YAML, create a workflow and tasks, and queue them for processing.
 
+4. **Get a Workflow status (e.g. via `/workflows/:id/status`):**
+
+The id o workflow is a path param.
+
+   ```bash
+   curl --request GET --url http://localhost:3000/workflows/e9bdcb89-d85d-4e3f-9c8d-043d757f0348/status
+   ```
+
+   Sample Response:
+   ```json
+   {
+	   "workflowId": "e9bdcb89-d85d-4e3f-9c8d-043d757f0348",
+	   "status": "completed",
+	   "completedTasks": 4,
+	   "totalTasks": 4
+   }
+   ```
+
+   ```json
+   {
+	"workflowId": "5883bcb7-d268-487c-8c22-06fcc0f2a561",
+	"status": "in_progress",
+	"completedTasks": 2,
+	"totalTasks": 4
+   }
+   ```
+
+   This will find the workflow in the database and return workflow status. If the workflow does not exist in the database the endpoint return a 404 response status.
+
+5. **Get a Workflow result (e.g. via `/workflows/:id/status`):**
+
+The id o workflow is a path param.
+
+   ```bash
+   curl --request GET --url http://localhost:3000/workflows/e9bdcb89-d85d-4e3f-9c8d-043d757f0348/result
+   ```
+
+   Sample Response:
+   ```json
+   {
+      "tasks": [
+         {
+            "taskId": "5a071975-f1d9-469a-b99e-ae3497af2783",
+            "type": "analysis",
+            "status": "completed",
+            "output": "Brazil"
+         },
+         {
+            "taskId": "f6ddeab2-4f89-4f6d-a819-1049cd990202",
+            "type": "area",
+            "status": "failed",
+            "output": "Invalid area calculated for task f6ddeab2-4f89-4f6d-a819-1049cd990202. Area must be greater than zero."
+         },
+         {
+            "taskId": "fcb93f20-f442-4af1-8f74-82ab01ba36a5",
+            "type": "notification",
+            "status": "completed",
+            "output": {}
+         },
+         {
+            "taskId": "503a8831-88fe-4923-b683-b0b4270b299f",
+            "type": "report",
+            "status": "completed",
+            "output": {
+               "workflowId": "1e43ebe7-a2b8-4aed-8344-2615b029c592",
+               "tasks": [
+                  {
+                     "taskId": "5a071975-f1d9-469a-b99e-ae3497af2783",
+                     "type": "analysis",
+                     "status": "completed",
+                     "output": "Brazil"
+                  },
+                  {
+                     "taskId": "f6ddeab2-4f89-4f6d-a819-1049cd990202",
+                     "type": "area",
+                     "status": "failed",
+                     "output": "Invalid area calculated for task f6ddeab2-4f89-4f6d-a819-1049cd990202. Area must be greater than zero."
+                  },
+                  {
+                     "taskId": "fcb93f20-f442-4af1-8f74-82ab01ba36a5",
+                     "type": "notification",
+                     "status": "completed",
+                     "output": {}
+                  }
+               ],
+               "finalReport": "Aggregated data and results"
+            }
+         }
+      ]
+   }
+   ```
+
+   This will find the workflow in the database and return workflow result (all tasks result). If the workflow does not exist in the database the endpoint return a 404 response status. If the workflow status is not completed return a 400 response status.
+
 4. **Check Logs:**
    - The worker picks up tasks from `queued` state.
    - `TaskRunner` runs the corresponding job (e.g., data analysis, email notification) and updates states.

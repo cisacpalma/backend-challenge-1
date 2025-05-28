@@ -1,6 +1,6 @@
-import {AppDataSource} from '../data-source';
-import {Task} from '../models/Task';
-import {TaskRunner, TaskStatus} from './taskRunner';
+import { AppDataSource } from '../data-source';
+import { Task } from '../models/Task';
+import { TaskRunner, TaskStatus } from './taskRunner';
 
 export async function taskWorker() {
     const taskRepository = AppDataSource.getRepository(Task);
@@ -9,6 +9,7 @@ export async function taskWorker() {
     while (true) {
         const task = await taskRepository.findOne({
             where: { status: TaskStatus.Queued },
+            order: { stepNumber: 'ASC' },
             relations: ['workflow'] // Ensure workflow is loaded
         });
 

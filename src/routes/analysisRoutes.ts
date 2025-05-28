@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { AppDataSource } from '../data-source';
-import { WorkflowFactory } from '../workflows/WorkflowFactory'; // Create a folder for factories if you prefer
+import { BadWorkflowDefinitionError, WorkflowFactory } from '../workflows/WorkflowFactory'; // Create a folder for factories if you prefer
 import path from 'path';
 
 const router = Router();
@@ -19,7 +19,11 @@ router.post('/', async (req, res) => {
         });
     } catch (error: any) {
         console.error('Error creating workflow:', error);
-        res.status(500).json({ message: 'Failed to create workflow' });
+        if (error instanceof BadWorkflowDefinitionError) {
+            res.status(400).json({ message: 'Invalid workflow definition' });
+        } else {
+            res.status(500).json({ message: 'Failed to create workflow' });
+        }
     }
 });
 

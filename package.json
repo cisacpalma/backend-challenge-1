@@ -4,6 +4,8 @@
     "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts"
   },
   "dependencies": {
+    "@turf/area": "^7.2.0",
+    "@turf/boolean-valid": "^7.2.0",
     "@turf/turf": "^7.1.0",
     "@types/geojson": "^7946.0.15",
     "bcrypt": "^5.1.1",

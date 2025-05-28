@@ -1,6 +1,7 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToOne, JoinColumn } from 'typeorm';
 import { Workflow } from './Workflow';
-import {TaskStatus} from "../workers/taskRunner";
+import { TaskStatus } from "../workers/taskRunner";
+import { Result } from './Result';
 
 @Entity({ name: 'tasks' })
 export class Task {
@@ -19,8 +20,9 @@ export class Task {
     @Column({ nullable: true, type: 'text' })
     progress?: string | null;
 
-    @Column({ nullable: true })
-    resultId?: string;
+    @OneToOne(() => Result, (result) => result.resultId)
+    @JoinColumn()
+    result?: Result | null;
 
     @Column()
     taskType!: string;
@@ -30,4 +32,7 @@ export class Task {
 
     @ManyToOne(() => Workflow, workflow => workflow.tasks)
     workflow!: Workflow;
+
+    @Column({ nullable: true, type: 'text' })
+    dependsOn?: string | null;
 }

@@ -135,15 +135,15 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/area@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/area/-/area-7.1.0.tgz"
-  integrity sha512-w91FEe02/mQfMPRX2pXua48scFuKJ2dSVMF2XmJ6+BJfFiCPxp95I3+Org8+ZsYv93CDNKbf0oLNEPnuQdgs2g==
+"@turf/area@^7.1.0", "@turf/area@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/area/-/area-7.2.0.tgz"
+  integrity sha512-zuTTdQ4eoTI9nSSjerIy4QwgvxqwJVciQJ8tOPuMHbXJ9N/dNjI7bU8tasjhxas/Cx3NE9NxVHtNpYHL0FSzoA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/bbox-clip@^7.1.0":
   version "7.1.0"
@@ -164,15 +164,15 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/bbox@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/bbox/-/bbox-7.1.0.tgz"
-  integrity sha512-PdWPz9tW86PD78vSZj2fiRaB8JhUHy6piSa/QXb83lucxPK+HTAdzlDQMTKj5okRCU8Ox/25IR2ep9T8NdopRA==
+"@turf/bbox@^7.1.0", "@turf/bbox@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/bbox/-/bbox-7.2.0.tgz"
+  integrity sha512-wzHEjCXlYZiDludDbXkpBSmv8Zu6tPGLmJ1sXQ6qDwpLE1Ew3mcWqt8AaxfTP5QwDNQa3sf2vvgTEzNbPQkCiA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/bearing@^7.1.0":
   version "7.1.0"
@@ -227,31 +227,31 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/boolean-crosses@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-crosses/-/boolean-crosses-7.1.0.tgz"
-  integrity sha512-LK8UM3AENycuGinLCDaL0QSznGMnD0XsjFDGnY4KehshiL5Zd8ZsPyKmHOPygUJT9DWeH69iLx459lOc+5Vj2w==
+"@turf/boolean-crosses@^7.1.0", "@turf/boolean-crosses@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-crosses/-/boolean-crosses-7.2.0.tgz"
+  integrity sha512-9GyM4UUWFKQOoNhHVSfJBf5XbPy8Fxfz9djjJNAnm/IOl8NmFUSwFPAjKlpiMcr6yuaAoc9R/1KokS9/eLqPvA==
   dependencies:
-    "@turf/boolean-point-in-polygon" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/line-intersect" "^7.1.0"
-    "@turf/polygon-to-line" "^7.1.0"
+    "@turf/boolean-point-in-polygon" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/line-intersect" "^7.2.0"
+    "@turf/polygon-to-line" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
-"@turf/boolean-disjoint@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-disjoint/-/boolean-disjoint-7.1.0.tgz"
-  integrity sha512-JapOG03kOCoGeYMWgTQjEifhr1nUoK4Os2cX0iC5X9kvZF4qCHeruX8/rffBQDx7PDKQKusSTXq8B1ISFi0hOw==
+"@turf/boolean-disjoint@^7.1.0", "@turf/boolean-disjoint@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-disjoint/-/boolean-disjoint-7.2.0.tgz"
+  integrity sha512-xdz+pYKkLMuqkNeJ6EF/3OdAiJdiHhcHCV0ykX33NIuALKIEpKik0+NdxxNsZsivOW6keKwr61SI+gcVtHYcnQ==
   dependencies:
-    "@turf/boolean-point-in-polygon" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/line-intersect" "^7.1.0"
-    "@turf/meta" "^7.1.0"
-    "@turf/polygon-to-line" "^7.1.0"
+    "@turf/boolean-point-in-polygon" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/line-intersect" "^7.2.0"
+    "@turf/meta" "^7.2.0"
+    "@turf/polygon-to-line" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/boolean-equal@^7.1.0":
   version "7.1.0"
@@ -276,19 +276,19 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/boolean-overlap@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-overlap/-/boolean-overlap-7.1.0.tgz"
-  integrity sha512-mJRN0X8JiPm8eDZk5sLvIrsP03A2GId6ijx4VgSE1AvHwV6qB561KlUbWxga2AScocIfv/y/qd2OCs+/TQSZcg==
+"@turf/boolean-overlap@^7.1.0", "@turf/boolean-overlap@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-overlap/-/boolean-overlap-7.2.0.tgz"
+  integrity sha512-ieM5qIE4anO+gUHIOvEN7CjyowF+kQ6v20/oNYJCp63TVS6eGMkwgd+I4uMzBXfVW66nVHIXjODdUelU+Xyctw==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/line-intersect" "^7.1.0"
-    "@turf/line-overlap" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/line-intersect" "^7.2.0"
+    "@turf/line-overlap" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     geojson-equality-ts "^1.0.2"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/boolean-parallel@^7.1.0":
   version "7.1.0"
@@ -302,26 +302,26 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/boolean-point-in-polygon@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-point-in-polygon/-/boolean-point-in-polygon-7.1.0.tgz"
-  integrity sha512-mprVsyIQ+ijWTZwbnO4Jhxu94ZW2M2CheqLiRTsGJy0Ooay9v6Av5/Nl3/Gst7ZVXxPqMeMaFYkSzcTc87AKew==
+"@turf/boolean-point-in-polygon@^7.1.0", "@turf/boolean-point-in-polygon@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-point-in-polygon/-/boolean-point-in-polygon-7.2.0.tgz"
+  integrity sha512-lvEOjxeXIp+wPXgl9kJA97dqzMfNexjqHou+XHVcfxQgolctoJiRYmcVCWGpiZ9CBf/CJha1KmD1qQoRIsjLaA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     point-in-polygon-hao "^1.1.0"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
-"@turf/boolean-point-on-line@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-point-on-line/-/boolean-point-on-line-7.1.0.tgz"
-  integrity sha512-Kd83EjeTyY4kVMAhcW3Lb8aChwh24BUIhmpE9Or8M+ETNsFGzn9M7qtIySJHLRzKAL3letvWSKXKQPuK1AhAzg==
+"@turf/boolean-point-on-line@^7.1.0", "@turf/boolean-point-on-line@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-point-on-line/-/boolean-point-on-line-7.2.0.tgz"
+  integrity sha512-H/bXX8+2VYeSyH8JWrOsu8OGmeA9KVZfM7M6U5/fSqGsRHXo9MyYJ94k39A9kcKSwI0aWiMXVD2UFmiWy8423Q==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/boolean-touches@^7.1.0":
   version "7.1.0"
@@ -335,23 +335,23 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/boolean-valid@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/boolean-valid/-/boolean-valid-7.1.0.tgz"
-  integrity sha512-zq1QCfQEyn+piHlvxxDifjmsJn2xl53i4mnKFYdMQI/i09XiX+Fi/MVM3i2hf3D5AsEPsud8Tk7C7rWNCm4nVw==
+"@turf/boolean-valid@^7.1.0", "@turf/boolean-valid@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/boolean-valid/-/boolean-valid-7.2.0.tgz"
+  integrity sha512-xb7gdHN8VV6ivPJh6rPpgxmAEGReiRxqY+QZoEZVGpW2dXcmU1BdY6FA6G/cwvggXAXxJBREoANtEDgp/0ySbA==
   dependencies:
-    "@turf/bbox" "^7.1.0"
-    "@turf/boolean-crosses" "^7.1.0"
-    "@turf/boolean-disjoint" "^7.1.0"
-    "@turf/boolean-overlap" "^7.1.0"
-    "@turf/boolean-point-in-polygon" "^7.1.0"
-    "@turf/boolean-point-on-line" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/line-intersect" "^7.1.0"
+    "@turf/bbox" "^7.2.0"
+    "@turf/boolean-crosses" "^7.2.0"
+    "@turf/boolean-disjoint" "^7.2.0"
+    "@turf/boolean-overlap" "^7.2.0"
+    "@turf/boolean-point-in-polygon" "^7.2.0"
+    "@turf/boolean-point-on-line" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/line-intersect" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     geojson-polygon-self-intersections "^1.2.1"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/boolean-within@^7.1.0":
   version "7.1.0"
@@ -597,15 +597,15 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/distance@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/distance/-/distance-7.1.0.tgz"
-  integrity sha512-hhNHhxCHB3ddzAGCNY4BtE29OZh+DAJPvUapQz+wOjISnlwvMcwLKvslgHWSYF536QDVe/93FEU2q67+CsZTPA==
+"@turf/distance@^7.1.0", "@turf/distance@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/distance/-/distance-7.2.0.tgz"
+  integrity sha512-HBjjXIgEcD/wJYjv7/6OZj5yoky2oUvTtVeIAqO3lL80XRvoYmVg6vkOIu6NswkerwLDDNT9kl7+BFLJoHbh6Q==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/ellipse@^7.1.0":
   version "7.1.0"
@@ -661,14 +661,14 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/geojson-rbush@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/geojson-rbush/-/geojson-rbush-7.1.0.tgz"
-  integrity sha512-j1C7Ohlxa1z644bNOpgibcFGaDLgLXGLOzwF1tfQaP5y7E4PJQUXL0DWIgNb3Ke7gZC05LPHM25a5TRReUfFBQ==
+"@turf/geojson-rbush@^7.1.0", "@turf/geojson-rbush@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/geojson-rbush/-/geojson-rbush-7.2.0.tgz"
+  integrity sha512-ST8fLv+EwxVkDgsmhHggM0sPk2SfOHTZJkdgMXVFT7gB9o4lF8qk4y4lwvCCGIfFQAp2yv/PN5EaGMEKutk6xw==
   dependencies:
-    "@turf/bbox" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/bbox" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     rbush "^3.0.1"
 
@@ -681,13 +681,13 @@
     "@turf/invariant" "^7.1.0"
     "@types/geojson" "^7946.0.10"
 
-"@turf/helpers@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/helpers/-/helpers-7.1.0.tgz"
-  integrity sha512-dTeILEUVeNbaEeoZUOhxH5auv7WWlOShbx7QSd4s0T4Z0/iz90z9yaVCtZOLbU89umKotwKaJQltBNO9CzVgaQ==
+"@turf/helpers@^7.1.0", "@turf/helpers@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/helpers/-/helpers-7.2.0.tgz"
+  integrity sha512-cXo7bKNZoa7aC7ydLmUR02oB3IgDe7MxiPuRz3cCtYQHn+BJ6h1tihmamYDWWUlPHgSNF0i3ATc4WmDECZafKw==
   dependencies:
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/hex-grid@^7.1.0":
   version "7.1.0"
@@ -730,14 +730,14 @@
     polygon-clipping "^0.15.3"
     tslib "^2.6.2"
 
-"@turf/invariant@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/invariant/-/invariant-7.1.0.tgz"
-  integrity sha512-OCLNqkItBYIP1nE9lJGuIUatWGtQ4rhBKAyTfFu0z8npVzGEYzvguEeof8/6LkKmTTEHW53tCjoEhSSzdRh08Q==
+"@turf/invariant@^7.1.0", "@turf/invariant@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/invariant/-/invariant-7.2.0.tgz"
+  integrity sha512-kV4u8e7Gkpq+kPbAKNC21CmyrXzlbBgFjO1PhrHPgEdNqXqDawoZ3i6ivE3ULJj2rSesCjduUaC/wyvH/sNr2Q==
   dependencies:
-    "@turf/helpers" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/isobands@^7.1.0":
   version "7.1.0"
@@ -817,15 +817,15 @@
     "@turf/meta" "^7.1.0"
     "@types/geojson" "^7946.0.10"
 
-"@turf/line-intersect@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/line-intersect/-/line-intersect-7.1.0.tgz"
-  integrity sha512-JI3dvOsAoCqd4vUJ134FIzgcC42QpC/tBs+b4OJoxWmwDek3REv4qGaZY6wCg9X4hFSlCKFcnhMIQQZ/n720Qg==
+"@turf/line-intersect@^7.1.0", "@turf/line-intersect@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/line-intersect/-/line-intersect-7.2.0.tgz"
+  integrity sha512-GhCJVEkc8EmggNi85EuVLoXF5T5jNVxmhIetwppiVyJzMrwkYAkZSYB3IBFYGUUB9qiNFnTwungVSsBV/S8ZiA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     sweepline-intersections "^1.5.0"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/line-offset@^7.1.0":
   version "7.1.0"
@@ -837,32 +837,32 @@
     "@turf/meta" "^7.1.0"
     "@types/geojson" "^7946.0.10"
 
-"@turf/line-overlap@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/line-overlap/-/line-overlap-7.1.0.tgz"
-  integrity sha512-BdHuEoFAtqvVw3LkjCdivG035nfuwZuxji2ijst+mkmDnlv7uwSBudJqcDGjU6up2r8P1mXChS4im4xjUz+lwg==
+"@turf/line-overlap@^7.1.0", "@turf/line-overlap@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/line-overlap/-/line-overlap-7.2.0.tgz"
+  integrity sha512-NNn7/jg53+N10q2Kyt66bEDqN3101iW/1zA5FW7J6UbKApDFkByh+18YZq1of71kS6oUYplP86WkDp16LFpqqw==
   dependencies:
-    "@turf/boolean-point-on-line" "^7.1.0"
-    "@turf/geojson-rbush" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/line-segment" "^7.1.0"
-    "@turf/meta" "^7.1.0"
-    "@turf/nearest-point-on-line" "^7.1.0"
+    "@turf/boolean-point-on-line" "^7.2.0"
+    "@turf/geojson-rbush" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/line-segment" "^7.2.0"
+    "@turf/meta" "^7.2.0"
+    "@turf/nearest-point-on-line" "^7.2.0"
     "@types/geojson" "^7946.0.10"
     fast-deep-equal "^3.1.3"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
-"@turf/line-segment@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/line-segment/-/line-segment-7.1.0.tgz"
-  integrity sha512-9rgIIH6ZzC3IiWxDQtKsq+j6eu8fRinMkJeusfI9HqOTm4vO02Ll4F/FigjOMOO/6X3TJ+Pqe3gS99TUaBINkw==
+"@turf/line-segment@^7.1.0", "@turf/line-segment@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/line-segment/-/line-segment-7.2.0.tgz"
+  integrity sha512-E162rmTF9XjVN4rINJCd15AdQGCBlNqeWN3V0YI1vOUpZFNT2ii4SqEMCcH2d+5EheHLL8BWVwZoOsvHZbvaWA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/line-slice-along@^7.1.0":
   version "7.1.0"
@@ -925,12 +925,12 @@
     polygon-clipping "^0.15.3"
     tslib "^2.6.2"
 
-"@turf/meta@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/meta/-/meta-7.1.0.tgz"
-  integrity sha512-ZgGpWWiKz797Fe8lfRj7HKCkGR+nSJ/5aKXMyofCvLSc2PuYJs/qyyifDPWjASQQCzseJ7AlF2Pc/XQ/3XkkuA==
+"@turf/meta@^7.1.0", "@turf/meta@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/meta/-/meta-7.2.0.tgz"
+  integrity sha512-igzTdHsQc8TV1RhPuOLVo74Px/hyPrVgVOTgjWQZzt3J9BVseCdpfY/0cJBdlSRI4S/yTmmHl7gAqjhpYH5Yaw==
   dependencies:
-    "@turf/helpers" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
     "@types/geojson" "^7946.0.10"
 
 "@turf/midpoint@^7.1.0":
@@ -972,20 +972,17 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/nearest-point-on-line@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/nearest-point-on-line/-/nearest-point-on-line-7.1.0.tgz"
-  integrity sha512-aTjAOm7ab0tl5JoxGYRx/J/IbRL1DY1ZCIYQDMEQjK5gOllhclgeBC0wDXDkEZFGaVftjw0W2RtE2I0jX7RG4A==
+"@turf/nearest-point-on-line@^7.1.0", "@turf/nearest-point-on-line@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/nearest-point-on-line/-/nearest-point-on-line-7.2.0.tgz"
+  integrity sha512-UOhAeoDPVewBQV+PWg1YTMQcYpJsIqfW5+EuZ5vJl60XwUa0+kqB/eVfSLNXmHENjKKIlEt9Oy9HIDF4VeWmXA==
   dependencies:
-    "@turf/bearing" "^7.1.0"
-    "@turf/destination" "^7.1.0"
-    "@turf/distance" "^7.1.0"
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
-    "@turf/line-intersect" "^7.1.0"
-    "@turf/meta" "^7.1.0"
+    "@turf/distance" "^7.2.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
+    "@turf/meta" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/nearest-point-to-line@^7.1.0":
   version "7.1.0"
@@ -1097,15 +1094,15 @@
     "@types/geojson" "^7946.0.10"
     tslib "^2.6.2"
 
-"@turf/polygon-to-line@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@turf/polygon-to-line/-/polygon-to-line-7.1.0.tgz"
-  integrity sha512-FBlfyBWNQZCTVGqlJH7LR2VXmvj8AydxrA8zegqek/5oPGtQDeUgIppKmvmuNClqbglhv59QtCUVaDK4bOuCTA==
+"@turf/polygon-to-line@^7.1.0", "@turf/polygon-to-line@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@turf/polygon-to-line/-/polygon-to-line-7.2.0.tgz"
+  integrity sha512-9jeTN3LiJ933I5sd4K0kwkcivOYXXm1emk0dHorwXeSFSHF+nlYesEW3Hd889wb9lZd7/SVLMUeX/h39mX+vCA==
   dependencies:
-    "@turf/helpers" "^7.1.0"
-    "@turf/invariant" "^7.1.0"
+    "@turf/helpers" "^7.2.0"
+    "@turf/invariant" "^7.2.0"
     "@types/geojson" "^7946.0.10"
-    tslib "^2.6.2"
+    tslib "^2.8.1"
 
 "@turf/polygonize@^7.1.0":
   version "7.1.0"
@@ -3752,7 +3749,7 @@ ts-node@^10.7.0, ts-node@^10.9.2:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@^2.5.0, tslib@^2.6.2:
+tslib@^2.5.0, tslib@^2.6.2, tslib@^2.8.1:
   version "2.8.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
